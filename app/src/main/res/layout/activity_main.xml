@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text_worker"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginLeft="63dp"
+        android:textSize="31sp"
+        android:background="@drawable/textview"
+        android:textAlignment="center"
+        android:text="Worker" />
+    <TextView
+        android:id="@+id/text_owner"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="224dp"
+        android:textAlignment="center"
+        android:background="@drawable/textview"
+        android:layout_marginLeft="180dp"
+
+        android:textSize="31sp"
+        android:text="@string/owner" />
+
+
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="426dp"
+
+
+        android:background="@drawable/button_design"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+     />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="124dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="426dp"
+        android:background="@drawable/button_design"
+
+
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+   <EditText
+       android:id="@+id/email"
+       android:layout_width="288dp"
+       android:layout_height="44dp"
+       android:layout_marginTop="278dp"
+       android:layout_marginLeft="36dp"
+       android:background="@drawable/login"
+       android:paddingLeft="10dp"
+       android:hint="Email Id"
+       android:drawableLeft="@drawable/person"
+       android:drawablePadding="10dp"
+       />
+
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="288dp"
+    android:layout_height="44dp"
+    android:layout_marginTop="332dp"
+    android:layout_marginLeft="36dp"
+    android:background="@drawable/login"
+    android:paddingLeft="10dp"
+    android:hint="Password"
+    android:drawableLeft="@drawable/password"
+    android:drawablePadding="10dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="377dp"
+        android:text="Forgot Password ?"
+        android:textColor="#00A2FF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="483dp"
+        android:layout_marginLeft="140dp"
+        android:text="Or login With"
+        android:textSize="14sp"/>
+
+
+    </RelativeLayout>

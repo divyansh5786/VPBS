@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Worker_Dashboard">
+
+    <Button
+        android:id="@+id/button_add_product"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="305dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/product"
+
+        android:padding="10dp"
+        android:text="Add
+Product"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button_"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="305dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/accept_return"
+
+        android:padding="10dp"
+        android:text="Accept
+        Return"
+        android:textSize="13sp" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#F03AB6"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="322dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/overview"
+        android:padding="80dp"
+
+
+        android:shadowColor="#5E000000"
+        android:elevation="2dp"
+        android:text="TextView"
+         />
+
+    <Button
+        android:id="@+id/button_invoice"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="305dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/bill"
+        android:padding="10dp"
+
+        android:text="Generate
+        Invoice"
+        android:textSize="13sp" />
+
+    <Button
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="417dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/attendance"
+        android:padding="10dp"
+
+        android:text="Attendance"
+        android:textSize="11sp" />
+
+    <Button
+
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="417dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/search"
+
+        android:padding="10dp"
+        android:text="Locate a
+        Product"
+        android:textSize="13sp" />
+
+    <Button
+
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="417dp"
+        android:background="#EBF4FB"
+        android:drawableTop="@drawable/profile"
+
+        android:padding="10dp"
+        android:text="Profile"
+        android:textSize="13sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="578dp"
+        android:layout_marginLeft="30dp"
+        android:text="Recent Activities"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:layout_marginLeft="250dp"
+        android:text="View All"
+        android:textSize="17sp"/>
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="19dp"
+        android:background="@drawable/recentacts"
+        android:drawableLeft="@drawable/p"
+        android:drawablePadding="10dp"
+        android:elevation="2dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Customer's Name       
+                       13:52
+                       Sold"
+        android:layout_marginTop="611dp"/>
+
+
+</RelativeLayout>
